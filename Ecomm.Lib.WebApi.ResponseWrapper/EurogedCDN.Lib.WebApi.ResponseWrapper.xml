@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ecomm.Lib.WebApi.ResponseWrapper</name>
+    </assembly>
+    <members>
+        <member name="T:Ecomm.Lib.WebApi.ResponseWrapper.WrapIgnore">
+            <summary>
+            Apply this attribute on routes that you don't want to be wrapped
+            </summary>
+        </member>
+        <member name="P:Ecomm.Lib.WebApi.ResponseWrapper.WrapperOptions.ApiVersion">
+            <summary>
+            Sets the Api version to be shown in the response. You must set the ShowApiVersion to true to see this value in the response.
+            </summary>
+        </member>
+        <member name="P:Ecomm.Lib.WebApi.ResponseWrapper.WrapperOptions.IsDebug">
+            <summary>
+            Shows the stack trace information in the responseException details.
+            </summary>
+        </member>
+        <member name="P:Ecomm.Lib.WebApi.ResponseWrapper.WrapperOptions.ShowApiVersion">
+            <summary>
+            Shows the Api Version attribute in the response.
+            </summary>
+        </member>
+        <member name="P:Ecomm.Lib.WebApi.ResponseWrapper.WrapperOptions.IgnoreNullValue">
+            <summary>
+            Tells the wrapper to ignore attributes with null values. Default is true.
+            </summary>
+        </member>
+        <member name="P:Ecomm.Lib.WebApi.ResponseWrapper.WrapperOptions.UseCamelCaseNamingStrategy">
+            <summary>
+            Tells the wrapper to use camel case as the response format. Default is true.
+            </summary>
+        </member>
+        <member name="P:Ecomm.Lib.WebApi.ResponseWrapper.WrapperOptions.EnableRequestLogging">
+            <summary>
+            Enables request logging and performance metrics
+            </summary>
+        </member>
+    </members>
+</doc>
